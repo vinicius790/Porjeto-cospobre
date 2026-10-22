@@ -1,0 +1,22 @@
+{
+  "name": "porjeto-cospobre",
+  "version": "3.0.0",
+  "description": "A Arte da Gambiarra e Criatividade Extrema — Planejador de Materiais, Comparador Visual, Ranking Dinâmico e PWA",
+  "main": "script.js",
+  "scripts": {
+    "test": "node --test tests/*.js",
+    "check": "node --check script.js",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "cospobre",
+    "cosplay",
+    "low-cost",
+    "gambiarra",
+    "pwa",
+    "i18n",
+    "material-planner"
+  ],
+  "author": "Cospobre Showcase Community",
+  "license": "MIT"
+}

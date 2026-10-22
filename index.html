@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags Completas -->
+    <title>Porjeto Cospobre — A Arte da Gambiarra e Criatividade Extrema</title>
+    <meta
+      name="description"
+      content="O portal oficial da criatividade de baixo custo: cosplays hilários, acessórios de papelão, galeria com filtros por categoria e concurso de cospobre com inscrição interativa!"
+    />
+    <meta
+      name="keywords"
+      content="Cospobre, Cosplay Barato, Humor Geek, Criatividade, Anime Friends, Gambiarra, Fantasias Criativas, Low Cost Cosplay"
+    />
+    <meta name="author" content="Cospobre Showcase" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f59e0b" />
+    <link rel="canonical" href="https://cospobre.vercel.app/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Porjeto Cospobre" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Porjeto Cospobre — A Arte da Gambiarra" />
+    <meta
+      property="og:description"
+      content="Quem precisa de orçamento milionário quando se tem fita crepe, papelão e muita imaginação? Conheça os melhores cospobres da internet."
+    />
+    <meta
+      property="og:image"
+      content="https://conteudo.imguol.com.br/c/entretenimento/2014/07/27/cosplayers-e-cospobre-1406486813367_300x300.jpg.webp"
+    />
+    <meta property="og:image:alt" content="Mural de cosplayers exibindo criatividade e humor com cospobres" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:url" content="https://cospobre.vercel.app/" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Porjeto Cospobre — A Arte da Gambiarra" />
+    <meta
+      name="twitter:description"
+      content="Galeria interativa com filtros, concurso online e as melhores gambiarras do universo geek."
+    />
+    <meta
+      name="twitter:image"
+      content="https://conteudo.imguol.com.br/c/entretenimento/2014/07/27/cosplayers-e-cospobre-1406486813367_300x300.jpg.webp"
+    />
+    <meta name="twitter:image:alt" content="Demonstração cômica de criatividade e cospobre low-cost" />
+
+    <!-- Favicon Vetorial SVG & Fallbacks -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Dados Estruturados Schema.org (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Porjeto Cospobre",
+      "alternateName": "A Arte da Gambiarra e Criatividade Extrema",
+      "url": "https://cospobre.vercel.app/",
+      "description": "Comunidade e galeria dedicada à criatividade low-cost, cosplays improvisados com materiais recicláveis e humor geek.",
+      "inLanguage": "pt-BR"
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Skip Links para Acessibilidade via Teclado (WCAG 2.1 AA) -->
+    <nav class="skip-links" aria-label="Atalhos de acessibilidade para navegação via teclado">
+      <a href="#main-content" class="skip-link" data-i18n="skip_main">Pular para o conteúdo principal</a>
+      <a href="#gallery" class="skip-link" data-i18n="skip_gallery">Pular para a galeria de cospobres</a>
+      <a href="#calculator" class="skip-link" data-i18n="skip_calculator">Pular para o planejador de materiais</a>
+      <a href="#comparator" class="skip-link" data-i18n="skip_comparator">Pular para o comparador lado-a-lado</a>
+      <a href="#card-maker" class="skip-link" data-i18n="skip_card_maker">Pular para o criador de card cospobre</a>
+      <a href="#community-ranking" class="skip-link" data-i18n="skip_ranking">Pular para votação e top 3 cospobres</a>
+      <a href="#about" class="skip-link" data-i18n="skip_about">Pular para o nosso manifesto</a>
+      <a href="#testimonials" class="skip-link" data-i18n="skip_testimonials">Pular para o carrossel de depoimentos</a>
+      <a href="#contest" class="skip-link" data-i18n="skip_contest">Pular para o formulário de inscrição</a>
+    </nav>
+
+    <!-- Região Live ARIA para leitores de tela -->
+    <div id="a11y-live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- =========================================================================
+         HEADER & NAV
+         ========================================================================= -->
+    <header id="header" role="banner">
+      <div class="container">
+        <nav aria-label="Navegação Principal">
+          <a class="logo" href="#home" aria-label="Ir para a página inicial">
+            Cos<span>pobre</span>.
+          </a>
+
+          <!-- Menu -->
+          <div class="menu" id="nav-menu">
+            <ul>
+              <li><a href="#home" data-i18n="nav_home">Início</a></li>
+              <li><a href="#gallery" data-i18n="nav_gallery">Galeria</a></li>
+              <li><a href="#calculator" data-i18n="nav_calculator">Planejador</a></li>
+              <li><a href="#comparator" data-i18n="nav_comparator">Comparador</a></li>
+              <li><a href="#card-maker" data-i18n="nav_card_maker">Criador de Card</a></li>
+              <li><a href="#community-ranking" data-i18n="nav_ranking">Ranking</a></li>
+              <li><a href="#about" data-i18n="nav_about">Manifesto</a></li>
+              <li><a href="#testimonials" data-i18n="nav_testimonials">Depoimentos</a></li>
+              <li><a href="#contest" data-i18n="nav_contest">Concurso</a></li>
+              <li><a href="#community" data-i18n="nav_community">Comunidade</a></li>
+            </ul>
+          </div>
+
+          <!-- Ações: Idioma PT/EN, Dark Mode, Alto Contraste e Menu Hambúrguer -->
+          <div class="nav-actions">
+            <button
+              id="lang-toggle"
+              class="lang-toggle-btn"
+              type="button"
+              aria-label="Alternar idioma PT/EN"
+              title="Alternar idioma Português / English"
+              data-lang="pt-BR"
+            >
+              PT
+            </button>
+
+            <button
+              id="theme-toggle"
+              class="theme-toggle-btn"
+              type="button"
+              aria-label="Alternar modo escuro ou claro"
+            >
+              <!-- Sun -->
+              <svg
+                id="theme-icon-sun"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="display: none"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <!-- Moon -->
+              <svg
+                id="theme-icon-moon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </button>
+
+            <button
+              id="contrast-toggle"
+              class="contrast-toggle-btn"
+              type="button"
+              aria-label="Alternar modo de alto contraste"
+              aria-pressed="false"
+              title="Alternar alto contraste"
+            >
+              <svg
+                id="contrast-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"></path>
+              </svg>
+              <span class="sr-only">Alto Contraste</span>
+            </button>
+
+            <button
+              class="toggle-menu-btn"
+              type="button"
+              aria-label="Abrir menu de navegação"
+              aria-expanded="false"
+              aria-controls="nav-menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =========================================================================
+         CONTEÚDO PRINCIPAL
+         ========================================================================= -->
+    <main id="main-content">
+      <!-- HERO -->
+      <section class="section" id="home">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-text">
+              <h1 data-i18n="hero_title">
+                Criatividade Extrema com <span>Zero Orçamento</span>
+              </h1>
+              <p data-i18n="hero_subtitle">
+                Quem disse que precisa gastar milhares de reais para homenagear seus heróis favoritos?
+                Aqui o papelão, a garrafa pet e o bom humor criam lendas inesquecíveis dos eventos de anime e quadrinhos!
+              </p>
+              <div class="hero-actions">
+                <a href="#gallery" class="button">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                  Ver Galeria
+                </a>
+                <a href="#contest" class="button button-secondary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 20h9"></path>
+                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                  </svg>
+                  Inscrever Cospobre
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-card">
+              <img
+                src="https://conteudo.imguol.com.br/c/entretenimento/2014/07/27/cosplayers-e-cospobre-1406486813367_300x300.jpg.webp"
+                alt="Comparação divertida entre Cosplay milionário e Cospobre de baixo custo"
+                loading="lazy"
+              />
+              <div class="hero-card-caption">
+                <span>Expectativa vs Gambiarra</span>
+                <span class="badge-lowcost">100% Baixo Custo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- GALERIA COM FILTROS -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-header">
+            <span class="tag">Mural dos Mestres</span>
+            <h2 class="title">Galeria de Obras Primas</h2>
+            <p class="subtitle">
+              Filtre por categoria e clique em qualquer item para inspecionar os detalhes e materiais da gambiarra.
+            </p>
+          </div>
+
+          <!-- Filtros de Categoria -->
+          <div class="gallery-filters" role="group" aria-label="Filtrar galeria por categoria">
+            <button class="filter-btn active" data-filter="todos" type="button">
+              Todos os Cospobres
+            </button>
+            <button class="filter-btn" data-filter="barato" type="button">
+              Cosplay Barato
+            </button>
+            <button class="filter-btn" data-filter="acessorios" type="button">
+              Acessórios & Armaduras
+            </button>
+            <button class="filter-btn" data-filter="criatividade" type="button">
+              Criatividade Extrema
+            </button>
+          </div>
+
+          <!-- Grid da Galeria -->
+          <div class="gallery-grid" id="cospobre-gallery">
+            <!-- Item 1: Barato -->
+            <article
+              class="gallery-item"
+              data-category="barato"
+              data-cost="R$ 3,50"
+              data-materials="Toalha de mesa vermelha, tiara de papel laminado e bota de chuva"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar Mulher Maravilha Low Cost">
+                <img
+                  src="https://mega.ibxk.com.br/2018/01/05/05130214420217.jpg"
+                  alt="Mulher Maravilha versão cospobre"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>Mulher Maravilha Rústica</h3>
+                <p>Armadura clássica feita com papel laminado e espírito guerreiro indomável.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Cosplay Barato</span>
+                  <span class="gallery-cost">Custo: R$ 3,50</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 2: Criatividade -->
+            <article
+              class="gallery-item"
+              data-category="criatividade"
+              data-cost="R$ 6,00"
+              data-materials="Caixa de ovo, fita crepe amarela e esponja de lavar louça"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar O Coisa Criativo">
+                <img
+                  src="https://i.pinimg.com/originals/79/92/af/7992af84283566aa984fc1dedd755571.jpg"
+                  alt="O Coisa do Quarteto Fantástico feito de caixas"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>O Coisa da Sustentabilidade</h3>
+                <p>A textura rochosa do herói foi recriada usando caixas de ovos coladas com amor.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Criatividade Extrema</span>
+                  <span class="gallery-cost">Custo: R$ 6,00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 3: Acessórios -->
+            <article
+              class="gallery-item"
+              data-category="acessorios"
+              data-cost="R$ 4,00"
+              data-materials="Garfos de plástico descartáveis e regata branca de feira"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar Garras do Wolverine">
+                <img
+                  src="https://cdn1.mundodastribos.com/685234-30-cospobres-para-voce-usar-no-anime-friends-600x600.jpg"
+                  alt="Wolverine com garras de garfo plástico"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>Wolverine de Restaurante</h3>
+                <p>Garras de adamantium substituídas por garfos descartáveis de festa infantil.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Acessórios</span>
+                  <span class="gallery-cost">Custo: R$ 4,00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 4: Barato -->
+            <article
+              class="gallery-item"
+              data-category="barato"
+              data-cost="R$ 2,00"
+              data-materials="Saco de lixo preto 100L e fita isolante para o morcego"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar Batman de Saco de Lixo">
+                <img
+                  src="https://pm1.narvii.com/6354/6e5c41cdd76c6b4a23c2d13a70f1aba1b4ef9e06_hq.jpg"
+                  alt="Batman de capa de saco de lixo"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>Cavaleiro das Trevas da Limpeza</h3>
+                <p>Uma capa que protege Gotham City e ainda serve para recolher as embalagens do evento.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Cosplay Barato</span>
+                  <span class="gallery-cost">Custo: R$ 2,00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 5: Acessórios -->
+            <article
+              class="gallery-item"
+              data-category="acessorios"
+              data-cost="R$ 8,50"
+              data-materials="Casco de melancia esculpido com colher de sopa"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar Tartarugas Ninja">
+                <img
+                  src="https://4.bp.blogspot.com/-WhXqEwEw5Ug/WSQnEHzq4FI/AAAAAAAAGiA/qtarjF751xsLePjy2-_SSJ3JS07GvlQAACLcB/s1600/57065-para-um-cospobre-de-tartarugas-ninja-diapo-2.jpg"
+                  alt="Casco de Tartaruga Ninja feito de melancia"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>Tartaruga Ninja Frutífera</h3>
+                <p>Armadura de casco biodegradável e comestível para recarregar as energias na convenção.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Acessórios</span>
+                  <span class="gallery-cost">Custo: R$ 8,50</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 6: Criatividade -->
+            <article
+              class="gallery-item"
+              data-category="criatividade"
+              data-cost="R$ 5,00"
+              data-materials="Papel higiênico folha dupla e toalha amarela na cabeça"
+            >
+              <div class="gallery-thumb" tabindex="0" role="button" aria-label="Ampliar Naruto Criativo">
+                <img
+                  src="https://pm1.narvii.com/6666/7131451cbb92bd0668d952e673f6c583075de9b4_hq.jpg"
+                  alt="Naruto improvisado no banheiro"
+                  loading="lazy"
+                />
+                <div class="gallery-thumb-overlay">🔍 Ver Detalhes</div>
+              </div>
+              <div class="gallery-details">
+                <h3>Hokage da Casa de Banho</h3>
+                <p>O poder dos jutsus manifestado através do estoque de higiene pessoal da residência.</p>
+                <div class="gallery-meta">
+                  <span class="lightbox-tag">Criatividade Extrema</span>
+                  <span class="gallery-cost">Custo: R$ 5,00</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- =========================================================================
+           PLANEJADOR DE MATERIAIS & CALCULADORA DE CUSTO/TEMPO COSPOBRE
+           ========================================================================= -->
+      <section class="section budget-calc-section" id="calculator" aria-labelledby="calc-heading">
+        <div class="container">
+          <header class="section-header">
+            <span class="tag" data-i18n="calc_tag">Planejador &amp; Economia Extrema</span>
+            <h2 id="calc-heading" data-i18n="calc_heading">
+              Planejador de Materiais &amp; <span>Calculadora Cospobre</span>
+            </h2>
+            <p class="subtitle" data-i18n="calc_subtitle">
+              Planeje cada etapa da sua fantasia reciclável com estimativa de custo real, tempo de montagem e exportação de ficha técnica completa em JSON ou Markdown!
+            </p>
+          </header>
+
+          <div class="calculator-grid">
+            <!-- Painel de Seleção de Materiais -->
+            <div class="calc-card calc-input-card">
+              <h3 data-i18n="calc_builder_title">📦 Monte sua Fantasia de Sucata</h3>
+
+              <!-- Comparação de Cosplay Original -->
+              <div class="form-group">
+                <label for="calc-cosplay-preset" data-i18n="calc_ref_label">Cosplay Original de Referência:</label>
+                <select id="calc-cosplay-preset">
+                  <option value="4200" data-char="Homem de Ferro (Armadura Mark 85)">Homem de Ferro (Armadura Mark 85) — R$ 4.200,00</option>
+                  <option value="2500" data-char="Goku Super Saiyajin (Kimono + Peruca)">Goku Super Saiyajin — R$ 2.500,00</option>
+                  <option value="3100" data-char="Sailor Moon (Uniforme Importado)">Sailor Moon — R$ 3.100,00</option>
+                  <option value="5800" data-char="Darth Vader (Capacete + Capa Veludo)">Darth Vader — R$ 5.800,00</option>
+                  <option value="1900" data-char="Tanjiro Kamado (Haori + Katana Réplica)">Tanjiro Kamado — R$ 1.900,00</option>
+                  <option value="custom">Outro (Inserir Custo Manual)</option>
+                </select>
+              </div>
+
+              <div class="form-group" id="calc-custom-cost-group" style="display: none;">
+                <label for="calc-custom-original-cost">Valor Estimado do Cosplay Original (R$):</label>
+                <input type="number" id="calc-custom-original-cost" placeholder="Ex: 3500.00" min="50" step="10" value="3500" />
+              </div>
+
+              <!-- Materiais Rápidos de Adicionar -->
+              <div class="calc-quick-materials">
+                <span class="quick-label" data-i18n="calc_quick_label">⚡ Itens Recicláveis Frequentes (Clique para Adicionar Custo + Tempo):</span>
+                <div class="quick-chips-grid">
+                  <button type="button" class="btn-material-chip" data-name="Papelão de Supermercado" data-cost="0.00" data-time="25" data-part="Armadura">📦 Papelão (R$ 0,00 • 25m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Fita Crepe 50m" data-cost="7.50" data-time="15" data-part="Fixação">🏷️ Fita Crepe (R$ 7,50 • 15m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Caixa de Sapato Velha" data-cost="0.00" data-time="20" data-part="Capacete">👟 Caixa de Sapato (R$ 0,00 • 20m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Caixa de Giz de Cera" data-cost="4.20" data-time="15" data-part="Pintura">🖍️ Giz de Cera (R$ 4,20 • 15m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Garrafa PET 2L" data-cost="0.00" data-time="20" data-part="Prop">🍾 Garrafa PET (R$ 0,00 • 20m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Sacola Plástica Amarela" data-cost="0.15" data-time="10" data-part="Peruca">🛍️ Sacola de Mercado (R$ 0,15 • 10m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Cabo de Vassoura Usado" data-cost="0.00" data-time="15" data-part="Arma">🥢 Cabo de Vassoura (R$ 0,00 • 15m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Rolo de Papel Alumínio" data-cost="5.80" data-time="20" data-part="Acabamento">🧻 Papel Alumínio (R$ 5,80 • 20m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Pregador de Roupa" data-cost="0.00" data-time="5" data-part="Fixação">📎 Pregador de Roupa (R$ 0,00 • 5m)</button>
+                  <button type="button" class="btn-material-chip" data-name="Lata de Achocolatado" data-cost="0.00" data-time="15" data-part="Reator">🥫 Lata de Achocolatado (R$ 0,00 • 15m)</button>
+                </div>
+              </div>
+
+              <!-- Formulário Adicionar Material Customizado -->
+              <div class="add-custom-material-box">
+                <h4 data-i18n="calc_add_custom_title">Adicionar Material ao Planejador:</h4>
+                <div class="custom-mat-row">
+                  <div class="form-group flex-2">
+                    <label for="custom-mat-name">Nome do Material:</label>
+                    <input type="text" id="custom-mat-name" placeholder="Ex: Bacia de plástico azul" />
+                  </div>
+                  <div class="form-group flex-1">
+                    <label for="custom-mat-price">Custo (R$):</label>
+                    <input type="number" id="custom-mat-price" placeholder="0.00" min="0" step="0.50" value="0.00" />
+                  </div>
+                  <div class="form-group flex-1">
+                    <label for="custom-mat-time">Tempo (min):</label>
+                    <input type="number" id="custom-mat-time" placeholder="20" min="1" step="5" value="20" />
+                  </div>
+                  <div class="form-group flex-1">
+                    <label for="custom-mat-part">Etapa:</label>
+                    <select id="custom-mat-part">
+                      <option value="Armadura">Armadura</option>
+                      <option value="Capacete">Capacete</option>
+                      <option value="Arma/Prop">Arma/Prop</option>
+                      <option value="Pintura">Pintura</option>
+                      <option value="Fixação">Fixação</option>
+                    </select>
+                  </div>
+                  <button type="button" id="btn-add-custom-mat" class="button" style="align-self: flex-end; height: 48px;">
+                    + Adicionar
+                  </button>
+                </div>
+              </div>
+
+              <!-- Lista de Materiais Selecionados -->
+              <div class="selected-materials-box">
+                <div class="selected-header">
+                  <h4>Lista de Materiais Planejados (<span id="calc-materials-count">0</span>):</h4>
+                  <button type="button" id="btn-clear-materials" class="button-clear-all" aria-label="Limpar todos os materiais">Limpar Tudo</button>
+                </div>
+                <ul id="calc-materials-list" class="materials-tags-list">
+                  <!-- Inseridos dinamicamente -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Painel de Resultados & Gráfico Comparativo -->
+            <div class="calc-card calc-result-card">
+              <h3 data-i18n="calc_results_title">📊 Orçamento, Tempo &amp; Ficha Técnica</h3>
+
+              <div class="comparison-display-box">
+                <div class="comparison-row">
+                  <span class="comp-label">Cosplay Original:</span>
+                  <strong class="comp-val val-original" id="calc-display-original">R$ 4.200,00</strong>
+                </div>
+
+                <div class="comparison-row">
+                  <span class="comp-label">Cospobre na Gambiarra:</span>
+                  <strong class="comp-val val-cospobre" id="calc-display-cospobre">R$ 11,70</strong>
+                </div>
+
+                <div class="comparison-row">
+                  <span class="comp-label">Tempo Estimado de Montagem:</span>
+                  <strong class="comp-val" id="calc-display-time" style="color: #38bdf8;">55 min</strong>
+                </div>
+
+                <div class="comparison-row">
+                  <span class="comp-label">Nível de Gambiarra:</span>
+                  <strong class="comp-val" id="calc-difficulty-badge" style="color: #a855f7;">Rápido &amp; Indolor</strong>
+                </div>
+
+                <div class="comparison-divider"></div>
+
+                <div class="comparison-row highlight-row">
+                  <span class="comp-label">Você Economizou:</span>
+                  <strong class="comp-val val-saved" id="calc-display-saved">R$ 4.188,30</strong>
+                </div>
+              </div>
+
+              <!-- Gráfico de Barra Comparativo Visual -->
+              <div class="savings-chart-wrapper">
+                <div class="chart-header">
+                  <span>Percentual de Economia:</span>
+                  <strong id="calc-savings-percent">99.7%</strong>
+                </div>
+
+                <!-- Barra de Comparação -->
+                <div class="chart-bar-container" aria-label="Gráfico de comparação entre custo do cospobre e economia">
+                  <div class="bar-saved" id="chart-bar-saved" style="width: 99.7%;">
+                    <span class="bar-text">Economia: 99.7%</span>
+                  </div>
+                  <div class="bar-cost" id="chart-bar-cost" style="width: 0.3%;">
+                    <span class="bar-cost-dot" title="Custo Cospobre"></span>
+                  </div>
+                </div>
+
+                <!-- Termômetro de Gambiarra -->
+                <div class="gambiarra-meter-box">
+                  <div class="meter-icon" id="gambiarra-icon">🏆</div>
+                  <div class="meter-info">
+                    <strong id="gambiarra-title">Mestre Supremo da Reciclagem!</strong>
+                    <p id="gambiarra-desc">
+                      Com essa economia estrondosa, sobrou dinheiro para você comprar 280 coxinhas com catupiry e um refrigerante de 2 litros!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="calc-share-actions">
+                <button type="button" id="btn-share-budget" class="button button-outline" style="width: 100%; margin-bottom: 0.65rem;">
+                  📢 Compartilhar Minha Economia Cospobre
+                </button>
+                <div class="export-buttons-row">
+                  <button type="button" id="btn-export-json" class="button button-secondary" aria-label="Exportar ficha técnica em JSON">
+                    📄 Exportar JSON
+                  </button>
+                  <button type="button" id="btn-export-md" class="button button-secondary" aria-label="Exportar ficha técnica em Markdown">
+                    📝 Exportar Markdown
+                  </button>
+                </div>
+                <div id="export-preview-box" class="export-preview-box" style="display: none;">
+                  <label for="export-preview-text" class="sr-only">Ficha Técnica Exportada</label>
+                  <textarea id="export-preview-text" rows="6" readonly></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- =========================================================================
+           COMPARADOR LADO-A-LADO (REFERÊNCIA OFICIAL VS COSPOBRE)
+           ========================================================================= -->
+      <section class="section comparator-section" id="comparator" aria-labelledby="comparator-heading">
+        <div class="container">
+          <header class="section-header">
+            <span class="tag" data-i18n="comp_tag">Expectativa vs Realidade</span>
+            <h2 id="comparator-heading" data-i18n="comp_heading">
+              Comparador Lado-a-Lado: <span>Referência vs Cospobre</span>
+            </h2>
+            <p class="subtitle" data-i18n="comp_subtitle">
+              Analise tecnicamente a diferença entre produções milionárias de estúdio e a genialidade da sucata brasileira. Deslize o controle para equilibrar orçamento e carisma!
+            </p>
+          </header>
+
+          <div class="comparator-controls-bar">
+            <div class="form-group comparator-select-group">
+              <label for="comparator-preset" data-i18n="comp_select_label">Selecione o Duelo de Personagens:</label>
+              <select id="comparator-preset">
+                <option value="ironman">Homem de Ferro (Mark 85 vs Caixa de Papelão)</option>
+                <option value="goku">Goku Super Saiyajin (Peruca Pro vs Cacho de Bananas)</option>
+                <option value="wonderwoman">Mulher Maravilha (Armadura Themyscira vs Papel Laminado)</option>
+                <option value="batman">Batman (Traje Tático WayneTech vs Saco de Lixo 100L)</option>
+              </select>
+            </div>
+
+            <div class="form-group comparator-slider-group">
+              <label for="comparator-split-slider">
+                Balancete Expectativa vs Gambiarra: <strong id="comparator-split-val">50% / 50%</strong>
+              </label>
+              <input
+                type="range"
+                id="comparator-split-slider"
+                min="10"
+                max="90"
+                value="50"
+                aria-label="Equilíbrio visual entre referência e cospobre"
+              />
+            </div>
+          </div>
+
+          <div class="comparator-cards-grid" id="comparator-grid">
+            <!-- Lado A: Referência Oficial -->
+            <article class="comp-side-card comp-ref-side" id="comp-ref-card">
+              <div class="comp-badge comp-badge-ref">🎬 Referência Oficial (Pro)</div>
+              <div class="comp-img-box">
+                <img
+                  id="comp-ref-img"
+                  src="https://conteudo.imguol.com.br/c/entretenimento/2014/07/27/cosplayers-e-cospobre-1406486813367_300x300.jpg.webp"
+                  alt="Cosplay de Referência Oficial"
+                  loading="lazy"
+                />
+              </div>
+              <div class="comp-side-details">
+                <h3 id="comp-ref-title">Homem de Ferro Mark 85 (Estúdio)</h3>
+                <ul class="comp-specs-list">
+                  <li><span>Custo Oficial:</span> <strong id="comp-ref-cost">R$ 4.200,00</strong></li>
+                  <li><span>Tempo de Produção:</span> <strong id="comp-ref-time">120 horas</strong></li>
+                  <li><span>Materiais:</span> <span id="comp-ref-materials">Fibra de vidro, impressão 3D SLA e pintura automotiva</span></li>
+                  <li><span>Fidelidade Visual:</span> <strong id="comp-ref-fidelity">100%</strong></li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Lado B: Versão Cospobre -->
+            <article class="comp-side-card comp-cospobre-side" id="comp-cospobre-card">
+              <div class="comp-badge comp-badge-cospobre">🛠️ Versão Cospobre (Gambiarra)</div>
+              <div class="comp-img-box">
+                <img
+                  id="comp-cospobre-img"
+                  src="https://mega.ibxk.com.br/2018/01/05/05130214420217.jpg"
+                  alt="Versão Cospobre de Baixo Custo"
+                  loading="lazy"
+                />
+              </div>
+              <div class="comp-side-details">
+                <h3 id="comp-cospobre-title">Homem de Papelão Mark R$ 7,50</h3>
+                <ul class="comp-specs-list">
+                  <li><span>Custo Cospobre:</span> <strong id="comp-cospobre-cost" style="color: #10b981;">R$ 7,50</strong></li>
+                  <li><span>Tempo de Produção:</span> <strong id="comp-cospobre-time">45 minutos</strong></li>
+                  <li><span>Materiais:</span> <span id="comp-cospobre-materials">Caixas de supermercado, fita crepe e lanterna do celular</span></li>
+                  <li><span>Carisma &amp; Humor:</span> <strong id="comp-cospobre-charisma" style="color: #f59e0b;">1000%</strong></li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="comparator-verdict-box">
+            <div class="verdict-metric">
+              <span>Fator de Economia</span>
+              <strong id="comp-cost-ratio">560x mais barato</strong>
+            </div>
+            <div class="verdict-metric">
+              <span>Tempo Poupado</span>
+              <strong id="comp-time-saved">119h 15min</strong>
+            </div>
+            <div class="verdict-metric">
+              <span>Índice ROI da Risada</span>
+              <strong id="comp-roi-score">99.8 / 100</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- =========================================================================
+           CRIADOR DE CARD COSPOBRE OFICIAL (CANVAS EXPORTÁVEL EM PNG)
+           ========================================================================= -->
+      <section class="section card-maker-section" id="card-maker" aria-labelledby="card-maker-heading">
+        <div class="container">
+          <header class="section-header">
+            <span class="tag" data-i18n="card_tag">Colecionáveis Épicos</span>
+            <h2 id="card-maker-heading" data-i18n="card_heading">
+              Criador de Card <span>Cospobre Oficial</span>
+            </h2>
+            <p class="subtitle" data-i18n="card_subtitle">
+              Transforme sua gambiarra em um card colecionável lendário! Carregue sua foto, escolha a moldura temática, defina os status de poder e baixe em alta resolução.
+            </p>
+          </header>
+
+          <div class="card-maker-layout">
+            <!-- Painel de Customização -->
+            <div class="card-controls-card">
+              <h3>🃏 Customização do Card</h3>
+
+              <!-- Upload da Foto do Cospobre -->
+              <div class="form-group">
+                <label for="card-photo-input">Sua Foto de Cospobre (Local):</label>
+                <div class="file-upload-wrapper">
+                  <label for="card-photo-input" class="button button-secondary upload-btn-label">
+                    📷 Escolher Foto do Dispositivo
+                  </label>
+                  <input
+                    type="file"
+                    id="card-photo-input"
+                    accept="image/*"
+                    class="sr-only"
+                    aria-label="Selecionar foto de cospobre para o card colecionável"
+                  />
+                  <span id="card-photo-name" class="upload-filename">Nenhum arquivo selecionado (usando modelo padrão)</span>
+                </div>
+              </div>
+
+              <!-- Nome do Personagem e do Cospobrer -->
+              <div class="form-group">
+                <label for="card-char-name">Personagem Homenageado:</label>
+                <input
+                  type="text"
+                  id="card-char-name"
+                  placeholder="Ex: Homem de Ferro de Papelão"
+                  value="Homem de Ferro de Papelão"
+                  maxlength="35"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="card-author-name">Nome do Artista da Gambiarra:</label>
+                <input
+                  type="text"
+                  id="card-author-name"
+                  placeholder="Ex: Paulinho da Sucata"
+                  value="Paulinho da Sucata"
+                  maxlength="30"
+                />
+              </div>
+
+              <!-- Moldura Temática -->
+              <div class="form-group">
+                <label for="card-frame-theme">Moldura Temática:</label>
+                <select id="card-frame-theme">
+                  <option value="lendario">🌟 Cospobre Lendário (Bordas de Ouro e Estrelas Míticas)</option>
+                  <option value="gambiarra" selected>🔧 Mestre da Gambiarra (Fita Crepe, Papelão &amp; Selo Inmetro)</option>
+                  <option value="esforco">💖 Nota 10 pelo Esforço (Prata, Coração &amp; Carinho da Galera)</option>
+                  <option value="comiccon">⚡ Terror da Comic Con (Neon Cyberpunk &amp; Sucata Radioativa)</option>
+                </select>
+              </div>
+
+              <!-- Atributos RPG -->
+              <div class="card-stats-box">
+                <h4>Status de Batalha:</h4>
+                <div class="stat-slider-row">
+                  <label for="card-stat-criatividade">Criatividade: <strong id="stat-criatividade-val">99</strong>/100</label>
+                  <input type="range" id="card-stat-criatividade" min="10" max="100" value="99" />
+                </div>
+                <div class="stat-slider-row">
+                  <label for="card-stat-custo">Custo Total: <strong id="stat-custo-val">R$ 5,00</strong></label>
+                  <input type="range" id="card-stat-custo" min="0" max="50" value="5" />
+                </div>
+                <div class="form-group" style="margin-top: 0.5rem; margin-bottom: 0;">
+                  <label for="card-stat-durabilidade">Durabilidade Estimada:</label>
+                  <input type="text" id="card-stat-durabilidade" value="15 min ou até chover" maxlength="30" />
+                </div>
+              </div>
+
+              <div class="card-quick-actions">
+                <button type="button" id="btn-card-random-example" class="button button-outline" style="width: 100%;">
+                  🎲 Gerar Card Aleatório de Exemplo
+                </button>
+              </div>
+            </div>
+
+            <!-- Preview do Card Canvas & Download -->
+            <div class="card-preview-container">
+              <div class="card-canvas-frame">
+                <canvas
+                  id="card-canvas"
+                  width="480"
+                  height="680"
+                  aria-label="Pré-visualização do Card Colecionável Cospobre"
+                ></canvas>
+              </div>
+
+              <div class="card-export-actions">
+                <button
+                  type="button"
+                  id="btn-download-card"
+                  class="button"
+                  aria-label="Baixar card colecionável cospobre em formato PNG"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Baixar Card Colecionável (PNG)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- =========================================================================
+           VOTAÇÃO DA COMUNIDADE COM ESTRELAS & RANKING DINÂMICO POR CATEGORIAS
+           ========================================================================= -->
+      <section class="section community-ranking-section" id="community-ranking" aria-labelledby="ranking-heading">
+        <div class="container">
+          <header class="section-header">
+            <span class="tag" data-i18n="rank_tag">Voto Popular &amp; Categorias</span>
+            <h2 id="ranking-heading" data-i18n="rank_heading">
+              Ranking &amp; <span>Votação da Comunidade</span>
+            </h2>
+            <p class="subtitle" data-i18n="rank_subtitle">
+              Filtre o ranking por Critério Técnico (Geral, Criatividade, Baixo Custo ou Fidelidade) e avalie com estrelas de 1 a 5!
+            </p>
+          </header>
+
+          <!-- Abas de Categoria do Ranking -->
+          <div class="ranking-tabs" id="ranking-category-tabs" role="group" aria-label="Categorias do Ranking">
+            <button type="button" class="ranking-tab active" data-rank-cat="geral" aria-pressed="true" data-i18n="rank_cat_general">
+              🏆 Ranking Geral
+            </button>
+            <button type="button" class="ranking-tab" data-rank-cat="criatividade" aria-pressed="false" data-i18n="rank_cat_creativity">
+              🧠 Criatividade
+            </button>
+            <button type="button" class="ranking-tab" data-rank-cat="baixo-custo" aria-pressed="false" data-i18n="rank_cat_lowcost">
+              💰 Baixo Custo
+            </button>
+            <button type="button" class="ranking-tab" data-rank-cat="fidelidade" aria-pressed="false" data-i18n="rank_cat_fidelity">
+              🎯 Fidelidade
+            </button>
+          </div>
+
+          <!-- Pódio Top 3 Cospobres da Semana -->
+          <div class="podium-wrapper">
+            <h3 class="podium-title" id="podium-category-heading">🏆 Pódio dos Melhores Cospobres da Semana</h3>
+            <div class="podium-grid" id="podium-container">
+              <!-- Renderizado dinamicamente via JS (Top 1 Ouro, Top 2 Prata, Top 3 Bronze) -->
+            </div>
+          </div>
+
+          <!-- Grade de Cospobres para Votar -->
+          <div class="voting-section-header">
+            <h3>⭐ Dê sua Nota para os Concorrentes</h3>
+            <span class="vote-hint">Clique nas estrelas de 1 a 5 para votar. Suas notas atualizam o ranking instantaneamente!</span>
+          </div>
+
+          <div class="voting-grid" id="voting-cards-grid">
+            <!-- Renderizado dinamicamente via script.js -->
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- MANIFESTO / SOBRE -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-card">
+              <img
+                src="https://static.tudointeressante.com.br/uploads/2016/10/cospobre.jpg"
+                alt="Criador do lendário cospobre de espelho"
+                loading="lazy"
+              />
+              <div class="hero-card-caption">
+                <span>O Mestre da Gambiarra</span>
+                <span class="subtitle">Anucha 'Cha' Saengchart</span>
+              </div>
+            </div>
+
+            <div class="hero-text">
+              <span class="tag">Nosso Manifesto</span>
+              <h2>Por Que o Cospobre é Arte Pura?</h2>
+              <p>
+                Enquanto o cosplay tradicional demanda meses de costura, impressoras 3D e orçamentos
+                astronômicos, o **Cospobre** celebra o que realmente importa: a inventividade humana,
+                a comédia e a capacidade de transformar uma vassoura e fita adesiva em uma katana lendária.
+              </p>
+              <p>
+                Nossos três pilares fundamentais:
+              </p>
+              <ul style="margin-left: 1.25rem; list-style: disc; margin-bottom: 1.5rem; color: var(--text-color);">
+                <li><strong>Custo Máximo R$ 50:</strong> Passou disso, já é burguesia disfarcada.</li>
+                <li><strong>Materiais do Cotidiano:</strong> Balde, toalha, fita crepe, papelão e vassoura.</li>
+                <li><strong>Cara de Pau Suprema:</strong> Assumir a fantasia com 100% de orgulho e atitude.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- =========================================================================
+           CARROSSEL ACESSÍVEL DE DEPOIMENTOS E EVENTOS (WCAG 2.1 AA)
+           ========================================================================= -->
+      <section class="section carousel-section" id="testimonials" aria-labelledby="carousel-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="tag">Vozes da Gambiarra</span>
+            <h2 class="title" id="carousel-heading">Depoimentos de Mestres do Cospobre</h2>
+            <p class="subtitle">Histórias reais de quem conquistou eventos com fita adesiva, papelão e muita cara de pau.</p>
+          </div>
+
+          <!-- Componente de Carrossel Acessível com conformidade W3C WAI-ARIA APG -->
+          <div
+            id="testimonials-carousel"
+            class="carousel-container"
+            role="region"
+            aria-roledescription="carrossel"
+            aria-label="Depoimentos e Destaques de Eventos de Cospobre"
+          >
+            <!-- Anunciador dinâmico de slide ativo para leitores de tela -->
+            <div id="carousel-live-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+            <div class="carousel-slides" id="carousel-track">
+              <!-- Slide 1 -->
+              <div
+                class="carousel-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="1 de 4"
+                aria-hidden="false"
+                tabindex="0"
+              >
+                <div class="carousel-card">
+                  <img
+                    class="carousel-avatar"
+                    src="https://static.tudointeressante.com.br/uploads/2016/10/cospobre.jpg"
+                    alt="Foto de perfil de Hugo com sorriso irônico"
+                    loading="lazy"
+                  />
+                  <blockquote class="carousel-quote">
+                    "Gastei R$ 3,50 em fita crepe e uma caixa de sucrilhos e ganhei o maior aplauso da plateia no Anime Friends. Cospobre é libertação!"
+                  </blockquote>
+                  <div>
+                    <div class="carousel-author">Hugo 'O Venezuelano'</div>
+                    <div class="carousel-role">Especialista em Armaduras de Sucrilhos • Membro desde 2018</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div
+                class="carousel-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="2 de 4"
+                aria-hidden="true"
+                tabindex="-1"
+              >
+                <div class="carousel-card">
+                  <img
+                    class="carousel-avatar"
+                    src="https://pm1.narvii.com/6666/7131451cbb92bd0668d952e673f6c583075de9b4_hq.jpg"
+                    alt="Foto de perfil de Caleb vestindo fantasia de Naruto caseira"
+                    loading="lazy"
+                  />
+                  <blockquote class="carousel-quote">
+                    "Fiz o Naruto do banheiro usando apenas a toalha amarela da minha avó e um rolo de papel higiênico. Fui parado para tirar 40 fotos!"
+                  </blockquote>
+                  <div>
+                    <div class="carousel-author">Caleb Ferreira</div>
+                    <div class="carousel-role">Mestre dos Jutsus Sanitários • Campeão Low-Cost 2023</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div
+                class="carousel-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="3 de 4"
+                aria-hidden="true"
+                tabindex="-1"
+              >
+                <div class="carousel-card">
+                  <img
+                    class="carousel-avatar"
+                    src="https://4.bp.blogspot.com/-WhXqEwEw5Ug/WSQnEHzq4FI/AAAAAAAAGiA/qtarjF751xsLePjy2-_SSJ3JS07GvlQAACLcB/s1600/57065-para-um-cospobre-de-tartarugas-ninja-diapo-2.jpg"
+                    alt="Foto de perfil de Rodrigo com casco de tartaruga de melancia"
+                    loading="lazy"
+                  />
+                  <blockquote class="carousel-quote">
+                    "O casco de melancia pesava um pouco, mas quando bateu a fome no evento eu simplesmente comi a armadura. 100% sustentável e saboroso."
+                  </blockquote>
+                  <div>
+                    <div class="carousel-author">Rodrigo 'Tartaruga'</div>
+                    <div class="carousel-role">Engenharia de Frutas Aplicada • Destaque Criativo</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div
+                class="carousel-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="4 de 4"
+                aria-hidden="true"
+                tabindex="-1"
+              >
+                <div class="carousel-card">
+                  <img
+                    class="carousel-avatar"
+                    src="https://conteudo.imguol.com.br/c/entretenimento/2014/07/27/cosplayers-e-cospobre-1406486813367_300x300.jpg.webp"
+                    alt="Foto de perfil de Matheus posando em convenção"
+                    loading="lazy"
+                  />
+                  <blockquote class="carousel-quote">
+                    "Quem tem imaginação não precisa de impressora 3D. O que vale é a cara de pau e a diversão compartilhada com a galera!"
+                  </blockquote>
+                  <div>
+                    <div class="carousel-author">Matheus Gambiarra</div>
+                    <div class="carousel-role">Veterano de Convenções • Jurado de Honra</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles Acessíveis do Carrossel -->
+            <div class="carousel-controls">
+              <button
+                type="button"
+                id="carousel-prev"
+                class="carousel-btn"
+                aria-label="Slide anterior"
+                aria-controls="carousel-track"
+              >
+                &#9664;
+              </button>
+
+              <div id="carousel-dots" class="carousel-pagination" role="tablist" aria-label="Navegação dos slides do carrossel"></div>
+
+              <button
+                type="button"
+                id="carousel-next"
+                class="carousel-btn"
+                aria-label="Próximo slide"
+                aria-controls="carousel-track"
+              >
+                &#9654;
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- FORMULÁRIO DE INSCRIÇÃO NO CONCURSO -->
+      <section class="section contest-section" id="contest">
+        <div class="container">
+          <div class="contest-grid">
+            <div class="contest-info">
+              <span class="tag">Concurso Oficial</span>
+              <h2>Inscreva Seu Cospobre</h2>
+              <p>
+                Participe da votação da comunidade e concorra ao troféu **Rolo de Fita Crepe de Ouro 2026**!
+                Preencha os dados e compartilhe sua obra.
+              </p>
+
+              <div class="contest-steps">
+                <div class="contest-step-item">
+                  <div class="step-num">1</div>
+                  <div>
+                    <h4 style="color: var(--title-color);">Planeje a Gambiarra</h4>
+                    <p style="font-size: 0.9rem;">Gaste o mínimo possível com materiais caseiros.</p>
+                  </div>
+                </div>
+
+                <div class="contest-step-item">
+                  <div class="step-num">2</div>
+                  <div>
+                    <h4 style="color: var(--title-color);">Tire uma Foto com Atitude</h4>
+                    <p style="font-size: 0.9rem;">Pose séria para contrastar com a roupa cômica.</p>
+                  </div>
+                </div>
+
+                <div class="contest-step-item">
+                  <div class="step-num">3</div>
+                  <div>
+                    <h4 style="color: var(--title-color);">Receba o Voto do Povo</h4>
+                    <p style="font-size: 0.9rem;">Os melhores são adicionados ao mural principal!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card com Formulário e Validação -->
+            <div class="form-card">
+              <form id="cospobre-form" novalidate>
+                <div class="form-group">
+                  <label for="cosplay-name">Seu Nome / Apelido Artístico *</label>
+                  <input
+                    type="text"
+                    id="cosplay-name"
+                    placeholder="Ex: Mestre do Papelão"
+                    required
+                  />
+                  <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="cosplay-email">Seu E-mail de Contato *</label>
+                  <input
+                    type="email"
+                    id="cosplay-email"
+                    placeholder="exemplo@email.com"
+                    required
+                  />
+                  <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="cosplay-char">Personagem Homenageado *</label>
+                  <input
+                    type="text"
+                    id="cosplay-char"
+                    placeholder="Ex: Homem de Ferro de Papelão"
+                    required
+                  />
+                  <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="cosplay-category">Categoria Principal *</label>
+                  <select id="cosplay-category">
+                    <option value="barato">Cosplay Barato (Abaixo de R$ 10)</option>
+                    <option value="acessorios">Acessórios & Armaduras Caseiras</option>
+                    <option value="criatividade">Criatividade Extrema / Inusitado</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="cosplay-cost">Custo Total Estimado em R$ *</label>
+                  <input
+                    type="number"
+                    id="cosplay-cost"
+                    placeholder="Ex: 4.50"
+                    step="0.50"
+                    min="0"
+                    max="50"
+                    required
+                  />
+                  <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="cosplay-materials">Materiais Utilizados *</label>
+                  <textarea
+                    id="cosplay-materials"
+                    rows="3"
+                    placeholder="Ex: 2 caixas de sapato, 1 rolo de durex, canetinha e meia furada..."
+                    required
+                  ></textarea>
+                  <span class="error-message"></span>
+                </div>
+
+                <button type="submit" class="button" style="width: 100%;">
+                  Enviar Inscrição Oficial 🚀
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- COMUNIDADE & LINKS EXTERNOS -->
+      <section class="section" id="community">
+        <div class="container">
+          <div class="section-header">
+            <span class="tag">Rede de Parcerias</span>
+            <h2 class="title">Explore a Comunidade Geek</h2>
+            <p class="subtitle">Portais de cosplay, eventos e inspirações para novas criações.</p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+            <div class="gallery-item" style="padding: 1.5rem; text-align: center;">
+              <h3>Nipon Cosplay</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0.75rem 0 1.25rem 0;">
+                Dicas de confecção, tecidos e tutoriais da cultura cosplay.
+              </p>
+              <a href="https://www.niponcosplay.com.br/" target="_blank" rel="noopener noreferrer" class="button button-secondary">
+                Acessar Nipon
+              </a>
+            </div>
+
+            <div class="gallery-item" style="padding: 1.5rem; text-align: center;">
+              <h3>Importados Geek</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0.75rem 0 1.25rem 0;">
+                Acessórios, perucas e itens para comparar preços e recriar em casa.
+              </p>
+              <a href="https://www.importadosgeek.com.br/cosplay" target="_blank" rel="noopener noreferrer" class="button button-secondary">
+                Acessar Importados
+              </a>
+            </div>
+
+            <div class="gallery-item" style="padding: 1.5rem; text-align: center;">
+              <h3>Cosplay Show</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0.75rem 0 1.25rem 0;">
+                Eventos e convenções pelo Brasil para exibir seu cospobre.
+              </p>
+              <a href="https://www.cosplayshow.com/pt/" target="_blank" rel="noopener noreferrer" class="button button-secondary">
+                Acessar Eventos
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================================
+         FOOTER
+         ========================================================================= -->
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="logo" href="#home">Cos<span>pobre</span>.</a>
+            <p style="margin-top: 1rem; max-width: 24rem;">
+              Celebrando o talento inquestionável da gambiarra e o humor incomparável
+              dos fãs de cultura pop e anime de todo o Brasil.
+            </p>
+          </div>
+
+          <div>
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#gallery">Galeria com Filtros</a></li>
+              <li><a href="#calculator">Planejador de Materiais</a></li>
+              <li><a href="#comparator">Comparador Lado-a-Lado</a></li>
+              <li><a href="#card-maker">Criador de Card</a></li>
+              <li><a href="#community-ranking">Top 3 &amp; Votação</a></li>
+              <li><a href="#about">Nosso Manifesto</a></li>
+              <li><a href="#contest">Inscrever Cospobre</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Regras do Concurso</h4>
+            <ul>
+              <li>Orçamento Máximo: R$ 50,00</li>
+              <li>Materiais Recicláveis Válidos</li>
+              <li>Proibido Gastar com Costureira</li>
+              <li>Humor 100% Obrigatório</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Porjeto Cospobre Showcase. Criado com fita crepe, papelão e amor.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#home" class="back-to-top" aria-label="Voltar ao início">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </a>
+
+    <!-- =========================================================================
+         MODAL LIGHTBOX
+         ========================================================================= -->
+    <div
+      id="lightbox-modal"
+      class="lightbox-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+      aria-labelledby="lightbox-title"
+      aria-describedby="lightbox-desc"
+    >
+      <div class="lightbox-content" tabindex="-1">
+        <button
+          id="lightbox-close-btn"
+          class="lightbox-close-btn"
+          type="button"
+          aria-label="Fechar detalhes do cospobre"
+        >
+          ✕
+        </button>
+
+        <div class="lightbox-img-wrapper">
+          <img id="lightbox-img" src="" alt="" />
+        </div>
+
+        <div class="lightbox-info">
+          <h3 id="lightbox-title">Título do Cospobre</h3>
+          <p id="lightbox-desc">Descrição e história da confecção.</p>
+          <div class="lightbox-tags">
+            <span class="lightbox-tag" id="lightbox-cost">Custo: R$ 0,00</span>
+            <span class="lightbox-tag" id="lightbox-materials">Materiais: Papelão</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Principal -->
+    <script src="script.js"></script>
+  </body>
+</html>

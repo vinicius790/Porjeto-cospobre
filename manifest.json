@@ -1,0 +1,21 @@
+{
+  "name": "Porjeto Cospobre — Planejador, Comparador & Galeria Geek",
+  "short_name": "Cospobre",
+  "description": "Plataforma interativa de cosplay de baixo custo: planejador de materiais com estimativa de tempo/custo, comparador lado-a-lado, ranking por categorias e criador de cards.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0f19",
+  "theme_color": "#f59e0b",
+  "lang": "pt-BR",
+  "categories": ["entertainment", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

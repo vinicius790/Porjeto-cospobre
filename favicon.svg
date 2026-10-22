@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cospobreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="tapeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#cospobreGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <!-- Cardboard Box / Hero Mask Silhouette -->
+  <path d="M14 22 L32 12 L50 22 L50 44 L32 54 L14 44 Z" fill="#78350f" opacity="0.25"/>
+  <path d="M16 23 L32 14 L48 23 L48 43 L32 52 L16 43 Z" fill="#b45309" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Cutout Eye Holes (Cospobre Cardboard Mask) -->
+  <rect x="22" y="26" width="9" height="7" rx="2" fill="#0f172a"/>
+  <rect x="33" y="26" width="9" height="7" rx="2" fill="#0f172a"/>
+  <!-- Duct Tape Across the forehead -->
+  <path d="M18 19 L46 22 L45 27 L17 24 Z" fill="url(#tapeGrad)" opacity="0.9" stroke="#ca8a04" stroke-width="0.8"/>
+  <!-- Smile Cutout -->
+  <path d="M25 39 Q32 44 39 39" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
